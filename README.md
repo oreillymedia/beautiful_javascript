@@ -1,1 +1,11 @@
-# beautiful_javascript
+Beautiful JavaScript
+==========
+
+This is the example code that accompanies Beautiful JavaScript by Anton Kovalyov (9781449370756). 
+
+Click the Download Zip button to the right to download example code.
+
+Visit the catalog page [here](http://shop.oreilly.com/product/0636920030706.do).
+
+See an error? Report it [here](http://oreilly.com/catalog/errata.csp?isbn=0636920030706), or simply fork and send us a pull request.
+
