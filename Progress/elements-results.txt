@@ -1,0 +1,20 @@
+[[Result]] The Elements class prototype
+[[Result]] Zero length instance
+[[Result]] Elements from Elements
+[[Result]] One match will have a length of 1 (no context)
+[[Result]] One match will have a length of 1
+[[Result]] Two matches will have a length of 2
+[[Result]] Add a class
+[[Result]] Set and get an attribute
+[[Result]] Set and get a css style property
+[[Result]] Set and get some html
+[[Result]] Filtering produces a new instance
+[[Result]] Filter with a dummy predicate
+[[Result]] Filter with a predicate
+[[Result]] Invocation forEach item in the list
+[[Result]] Find the indexOf an element
+[[Result]] Push an element onto the list
+[[Result]] Push returns the instance, not the length
+[[Result]] Slicing produces a new instance
+[[Result]] Slice a list of elements
+[[Result]] Sort a list of elements by nodeName
