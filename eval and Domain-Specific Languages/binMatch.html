@@ -1,0 +1,19 @@
+<!doctype html>
+<script src="binMatch.js"></script>
+<input type="file" id="file">
+<script>
+  var pngHead = binMatch("'\x89PNG\\r\\n\x1a\\n':str8 _:uint4 " +
+                         "'IHDR':str4 width:uint4 height:uint4 depth:uint1");
+
+  document.getElementById("file").addEventListener("change", function(e) {
+    var reader = new FileReader();
+    reader.addEventListener("loadend", function() {
+      var match = pngHead(new Uint8Array(reader.result), 0);
+      if (match)
+        console.log("Your image is ", match.width, "x", match.height, "pixels.");
+      else
+        console.log("That is not a PNG image.");
+    });
+    reader.readAsArrayBuffer(e.target.files[0]);
+  });
+</script>
